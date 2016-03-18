@@ -5,22 +5,19 @@ var express = require('express');
 var router = express.Router();
 
 var usuarioSchema = mongoose.Schema({
-	/*
+	
 	nombre:{
 		type: String,
 		unique: true,
-		sparse: true,
+		sparse: true
 	},
-			
+
 	email:{
 		type: String,
 		unique: true,
-		sparse: true,
+		sparse: true
 	},
 
-	*/		
-	nombre:String,
-	email: String,
 	clave: String,
 });
 

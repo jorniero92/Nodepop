@@ -8,10 +8,18 @@ var express = require('express');
 var router = express.Router();
 
 var anuncioSchema = mongoose.Schema({
-    nombre: String,
+    nombre: {
+        type: String,
+        unique: true,
+        sparse: true
+    },
     venta: Boolean,
     precio: Number,
-    foto: String,
+    foto: {
+        type: String,
+        unique: true,
+        sparse: true
+    },
     tags: [String]
 });
 
