@@ -37,12 +37,9 @@ npm run anuncios
 
 
 
-como añadir usuarios...
-como se ejecuta...
-
 ## Instrucciones de uso:
 
-	### Añadir usuarios o anuncion.
+### Añadir usuarios o anuncion.
 
  * Usuario.
  ```
@@ -69,7 +66,7 @@ como se ejecuta...
 
 
 
-	### Ejemplo de filtrado de anuncios.
+### Ejemplo de filtrado de anuncios.
 
  * Autentificacion de un usuario y devuelve la lista de anuncios.
  ```
