@@ -6,7 +6,7 @@ var Anuncios = mongoose.model('Anuncios');
 var auth = require('../lib/auth');
 
 /* devuelve toda lita de anunios con todos los campos*/
-router.get('/',auth(), function(req, res, next) {
+router.get('/', auth(), function(req, res, next) {
 
     var sort = req.query.sort;
 
@@ -93,8 +93,8 @@ router.get('/',auth(), function(req, res, next) {
             res.json({ result: true, anuncios: rows });
             return;
         }
-
     });
+    
 });
 
 
