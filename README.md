@@ -8,7 +8,7 @@ express nodepop --ejs
 npm i mongoose
 ```
 
-## PAra empezar con el proyecto:
+## Para empezar con el proyecto:
 
  1 Iniciamos la Base de Datos.
 ```
