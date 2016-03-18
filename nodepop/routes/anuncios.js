@@ -11,7 +11,8 @@ router.get('/', auth(), function(req, res, next) {
     var sort = req.query.sort;
 
     let filtro = {};
-
+    console.log(req.query.start);
+    
     if (typeof req.query.tags !== 'undefined') {
         var arregloDeCadenas = (req.query.tags).split("-");
 
@@ -94,7 +95,7 @@ router.get('/', auth(), function(req, res, next) {
             return;
         }
     });
-    
+
 });
 
 

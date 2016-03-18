@@ -39,7 +39,7 @@ npm run anuncios
 
 ## Instrucciones de uso:
 
-#### 	Añadir usuarios o anuncios.
+#### Añadir usuarios o anuncios.
 
  * Usuario.
  ```
@@ -66,7 +66,7 @@ npm run anuncios
 
 
 
-#### 	Ejemplo de filtrado de anuncios.
+#### Ejemplo de filtrado de anuncios.
 
  * Autentificacion de un usuario y devuelve la lista de anuncios.
  ```
@@ -92,3 +92,21 @@ npm run anuncios
  ```
  GET http://localhost:3000/anuncios?precio:0-10
  ```
+
+
+    * Ejemplo completo de una peticion de una lista con restricciones
+ ```
+ GET http://localhost:3000/anuncios?ptag=mobile&venta:false&nombre=ip&recio:50-
+ ```
+
+
+## Api V1.0 2016-03-18
+
+* 1. Crear la app Express 
+* 2. Instalar Mongoose
+* 3. Instalar las dependencias
+* 4. Inicializar la Base de Datos
+* 5. Hacer peticiones para añadir usuario 
+* 6. Con autentificacion, añadir anuncion y consultarlos
+* 7. Filtrado de anuncios poniendo filtros
+* 8. Comentar el README.md para saber el correcto funcionamiento
