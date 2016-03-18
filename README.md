@@ -87,23 +87,22 @@ npm run anuncios
  GET http://localhost:3000/anuncios?precio:10
  ```
 
-   * Devuelve la lista de anuncios con un precio menor al insertado
+  * Devuelve la lista de anuncios con un precio menor al insertado
  ```
  GET http://localhost:3000/anuncios?precio:-10
  ```
 
-    * Devuelve la lista de anuncios con un precio mayor al insertado
+  * Devuelve la lista de anuncios con un precio mayor al insertado
  ```
  GET http://localhost:3000/anuncios?precio:10-
  ```
 
-    * Devuelve la lista de anuncios con un precio entre un rango
+  * Devuelve la lista de anuncios con un precio entre un rango
  ```
  GET http://localhost:3000/anuncios?precio:0-10
  ```
 
-
-    * Ejemplo completo de una peticion de una lista con restricciones
+  * Ejemplo completo de una peticion de una lista con restricciones
  ```
  GET http://localhost:3000/anuncios?ptag=mobile&venta:false&nombre=ip&recio:50-
  ```
