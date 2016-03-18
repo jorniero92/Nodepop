@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 
 require('./models/user_model');
 require('./models/anuncios_model'); 
+require('./lib/auth.js');
 
 var routes = require('./routes/index');
 var users = require('./routes/users');
