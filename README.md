@@ -15,7 +15,7 @@ npm i mongoose
 	startMongo
 ```
 
-  2 Realizar los comandos dentro del proyecto nodepop/nodepop
+  2 Realizar los comandos dentro del proyecto nodepop/nodepop.
 ```
 	cd nodepop
 ```
@@ -39,7 +39,7 @@ npm run anuncios
 
 ## Instrucciones de uso:
 
-#### 	Añadir usuarios o anuncion.
+#### 	Añadir usuarios o anuncios.
 
  * Usuario.
  ```
